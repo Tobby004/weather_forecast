@@ -1,0 +1,13 @@
+body {
+
+    animation: animatedBackground 10s linear infinite;
+    }
+
+
+@keyframes animatedBackground {
+    0% { background: #3498db; }
+    25% { background: #9b59b6; }
+    50% { background: #e74c3c; }
+    75% { background: #2ecc71; }
+    100% { background: #3498db; }
+}

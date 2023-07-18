@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background: url('your-image.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23d5ab);
+}
+
+.menu li {
+ float: left;
+}
+
+.menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    background-color: yellowgreen;
+}
+
+#signupForm {
+    padding: 20px;
+    background-color: rgb(233, 105, 105);
+    max-width: 300px;
+    margin: 20px auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    transition: all 0.5s ease-in-out;
+    transform: translateY(-20px);
+    opacity: 0;
+}
+
+#signupForm:not(.hidden) {
+    transform: translateY(0);
+    opacity: 1;
+}
+form {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+}
+.hidden {
+    display: none;
+}
+@keyframes gradient-background {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient-background 10s ease-in-out infinite;
+}
+
+@media(max-width:767px) {
+    #signupForm {
+        width: 90%;
+    }
+}

@@ -1,0 +1,218 @@
+{
+    "sourceFile": "app.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 50,
+            "patches": [
+                {
+                    "date": 1689255441522,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1689255549573,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,8 +21,7 @@\n     alert(\"Today is Tuesday!\")\n }\n else if (day == \"Wednesday!\") {\n     alert (\"Today is Wednesday!\")\n-}\n-else {\n+}else {\n         alert(\"Today is neither Monday,Tuesday or Wednesday!\")\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689255609299,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,7 +21,7 @@\n     alert(\"Today is Tuesday!\")\n }\n else if (day == \"Wednesday!\") {\n     alert (\"Today is Wednesday!\")\n-}else {\n-        alert(\"Today is neither Monday,Tuesday or Wednesday!\")\n+}//else {\n+       // alert(\"Today is neither Monday,Tuesday or Wednesday!\")\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689255646238,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,7 +21,7 @@\n     alert(\"Today is Tuesday!\")\n }\n else if (day == \"Wednesday!\") {\n     alert (\"Today is Wednesday!\")\n-}//else {\n+}\n+//else {\n\\ No newline at end of file\n        // alert(\"Today is neither Monday,Tuesday or Wednesday!\")\n-}\n"
+                },
+                {
+                    "date": 1689256325454,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,17 +11,23 @@\n     } else {\n         passwordInput.setAttribute('type', 'password');\n     }\n });\n-let day = \"Tuesday\"\n+//let day = \"Tuesday\"\n \n-if (day == \"Monday!\"){\n+//if (day == \"Monday!\"){\n     alert(\"Today is Monday!\") \n }\n-else if (day == \"Tuesday!\"){\n+//else if (day == \"Tuesday!\"){\n     alert(\"Today is Tuesday!\")\n }\n-else if (day == \"Wednesday!\") {\n+//else if (day == \"Wednesday!\") {\n\\ No newline at end of file\n     alert (\"Today is Wednesday!\")\n }\n //else {\n-       // alert(\"Today is neither Monday,Tuesday or Wednesday!\")\n+       // alert(\"Today is neither Monday,Tuesday or Wednesday!\n+\n+ // conditional operator\n+ let age =29 \n+    let canVote (age > 18) ? true : false\n+    console.log (canVote);\n+ \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689256459380,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,23 +11,11 @@\n     } else {\n         passwordInput.setAttribute('type', 'password');\n     }\n });\n-//let day = \"Tuesday\"\n \n-//if (day == \"Monday!\"){\n-    alert(\"Today is Monday!\") \n-}\n-//else if (day == \"Tuesday!\"){\n-    alert(\"Today is Tuesday!\")\n-}\n-//else if (day == \"Wednesday!\") {\n-    alert (\"Today is Wednesday!\")\n-}\n-//else {\n-       // alert(\"Today is neither Monday,Tuesday or Wednesday!\n \n  // conditional operator\n  let age =29 \n-    let canVote (age > 18) ? true : false\n-    console.log (canVote);\n+    let canVote = (age > 18) ? true : false\n+    console.log (canVote)\n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689256554422,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,8 +14,8 @@\n });\n \n \n  // conditional operator\n- let age =29 \n+ let age = 17\n     let canVote = (age > 18) ? true : false\n     console.log (canVote)\n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689256752793,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,8 +14,8 @@\n });\n \n \n  // conditional operator\n- let age = 17\n+ let age = 29\n     let canVote = (age > 18) ? true : false\n     console.log (canVote)\n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689256824797,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,8 +14,8 @@\n });\n \n \n  // conditional operator\n- let age = 29\n-    let canVote = (age > 18) ? true : false\n+ let age = 18\n+    let canVote = (age > 16) ? true : false\n     console.log (canVote)\n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689257843685,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,8 +14,15 @@\n });\n \n \n  // conditional operator\n- let age = 18\n-    let canVote = (age > 16) ? true : false\n-    console.log (canVote)\n- \n\\ No newline at end of file\n+ //let age = 18\n+    //let canVote = (age > 16) ? true : false\n+    //console.log (canVote)\n+\n+ // while loop\n+ let i = 0;\n+\n+ whlie (i =10){\n+    console.log(i)\n+    i++\n+ }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689257885632,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,8 +21,7 @@\n \n  // while loop\n  let i = 0;\n \n- whlie (i =10){\n-    console.log(i)\n-    i++\n+ whlie (i =10) {\n+    console.log(i);\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689257930830,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,7 +21,7 @@\n \n  // while loop\n  let i = 0;\n \n- whlie (i =10) {\n+ whlie (i < 10) {\n     console.log(i);\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689257971656,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,5 +23,6 @@\n  let i = 0;\n \n  whlie (i < 10) {\n     console.log(i);\n+    i++;\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689259450579,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,8 +21,8 @@\n \n  // while loop\n  let i = 0;\n \n- whlie (i < 10) {\n+ whlie (i < 10){ // show then 0 then 1 , then 2\n     console.log(i);\n-    i++;\n+    i++; //increment\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689259697441,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,28 +1,10 @@\n-document.getElementById('signupButton').addEventListener('click', function() {\n-    var form = document.getElementById('signupForm');\n-    form.classList.toggle('hidden');\n-});\n-document.getElementById('toggleButton').addEventListener('click', function() {\n-    var passwordInput = document.getElementById('password');\n-    var typeAttribute = passwordInput.getAttribute('type');\n \n-    if (typeAttribute === 'password') {\n-        passwordInput.setAttribute('type', 'text');\n-    } else {\n-        passwordInput.setAttribute('type', 'password');\n-    }\n-});\n \n+ // while loop\n \n- // conditional operator\n- //let age = 18\n-    //let canVote = (age > 16) ? true : false\n-    //console.log (canVote)\n+let i = 0;\n \n- // while loop\n- let i = 0;\n-\n- whlie (i < 10){ // show then 0 then 1 , then 2\n+ whlie (i < 10) { // show then 0 then 1 , then 2\n\\ No newline at end of file\n     console.log(i);\n-    i++; //increment\n- }\n+    i++;\n+  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689259970216,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,9 @@\n  // while loop\n \n let i = 0;\n \n- whlie (i < 10) { // show then 0 then 1 , then 2\n+ whlie (i < 10) { // show 0 then 1 , then 2\n     console.log(i);\n+    // any code\n\\ No newline at end of file\n     i++;\n-  }\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689260450617,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,8 @@\n  // while loop\n \n let i = 0;\n \n- whlie (i < 10) { // show 0 then 1 , then 2\n-    console.log(i);\n-    // any code\n+  while (i < 10){\n+ console.log(i);\n     i++;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689260505549,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,6 +5,7 @@\n let i = 0;\n \n   while (i < 10){\n  console.log(i);\n+ //any code\n     i++;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689328012296,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,12 @@\n \n \n- // while loop\n+ // do loop\n \n-let i = 0;\n+let j = 0;\n \n-  while (i < 10){\n- console.log(i);\n- //any code\n\\ No newline at end of file\n-    i++;\n-}\n+  do { \n+    (i < 10)\n+ console.log(j);\n+ \n+    j++;\n+} while (j < 3)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689328047618,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n \n let j = 0;\n \n   do { \n-    (i < 10)\n+    (j < 10)\n  console.log(j);\n- \n+\n     j++;\n } while (j < 3)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689328919437,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,12 +1,5 @@\n-\n-\n- // do loop\n-\n-let j = 0;\n-\n-  do { \n-    (j < 10)\n- console.log(j);\n-\n-    j++;\n-} while (j < 3)\n\\ No newline at end of file\n+function sum (){\n+    let result = 10 + 15\n+    console.log(`The result is ${result}`)\n+}\n+sum()\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689329076363,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n function sum (){\n     let result = 10 + 15\n     console.log(`The result is ${result}`)\n }\n-sum()\n\\ No newline at end of file\n+alert(\"Hello world\")\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689329138457,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,7 @@\n function sum (){\n     let result = 10 + 15\n     console.log(`The result is ${result}`)\n }\n+sum()\n+\n alert(\"Hello world\")\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689329773901,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,5 +3,19 @@\n     console.log(`The result is ${result}`)\n }\n sum()\n \n-alert(\"Hello world\")\n\\ No newline at end of file\n+alert(\"Hello world\")\n+\n+let count = 0\n+let firstName = Taiwo\n+\n+function addToCount(){\n+    let localCount = 2\n+\n+    count = count + 3\n+    let localCount = localCount = 3\n+\n+    console.log(\"count is \", count)\n+    console.log(firstName) \n+    console.log(\"count is\", localCount)\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689329914776,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,8 +14,9 @@\n \n     count = count + 3\n     let localCount = localCount = 3\n \n-    console.log(\"count is \", count)\n+    console.log(\"count is:\", count)\n     console.log(firstName) \n-    console.log(\"count is\", localCount)\n\\ No newline at end of file\n-}\n+    console.log(\"Local Count is:\", localCount)\n+}\n+addToCount()\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689329994238,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n function addToCount(){\n     let localCount = 2\n \n     count = count + 3\n-    let localCount = localCount = 3\n+     localCount = localCount = 3\n \n     console.log(\"count is:\", count)\n     console.log(firstName) \n     console.log(\"Local Count is:\", localCount)\n"
+                },
+                {
+                    "date": 1689330060530,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n \n alert(\"Hello world\")\n \n let count = 0\n-let firstName = Taiwo\n+let firstName = \"Taiwo\"\n \n function addToCount(){\n     let localCount = 2\n \n@@ -18,5 +18,6 @@\n     console.log(\"count is:\", count)\n     console.log(firstName) \n     console.log(\"Local Count is:\", localCount)\n }\n-addToCount()\n\\ No newline at end of file\n+addToCount()\n+alert(\"welcome\")\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689409289867,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,23 +1,12 @@\n-function sum (){\n-    let result = 10 + 15\n-    console.log(`The result is ${result}`)\n+function showCredentials(callback) {\n+    const username = \"TestUser\";\n+    const password = \"TestPassword\";\n+    callback(username, password);\n }\n-sum()\n \n-alert(\"Hello world\")\n+function displayCredentials(username, password) {\n+    console.log(`Username: ${username}`);\n+    console.log(`Password: ${password}`);\n+}\n \n-let count = 0\n-let firstName = \"Taiwo\"\n-\n-function addToCount(){\n-    let localCount = 2\n-\n-    count = count + 3\n\\ No newline at end of file\n-     localCount = localCount = 3\n-\n-    console.log(\"count is:\", count)\n-    console.log(firstName) \n-    console.log(\"Local Count is:\", localCount)\n-}\n-addToCount()\n-alert(\"welcome\")\n+showCredentials(displayCredentials);\n"
+                },
+                {
+                    "date": 1689409751149,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,12 +1,10 @@\n-function showCredentials(callback) {\n-    const username = \"TestUser\";\n-    const password = \"TestPassword\";\n-    callback(username, password);\n+function showCredentials (callBack){\n+    const username = \"Tobi\" ;\n+    const password = \"Taiwo\" ;\n+    callBack(username, password);\n }\n \n-function displayCredentials(username, password) {\n-    console.log(`Username: ${username}`);\n-    console.log(`Password: ${password}`);\n+function displayCredentials (username , password) {\n+    console.log(`Username: ${username}, Password: $ {password}`);\n }\n-\n-showCredentials(displayCredentials);\n+showCredentials(displayCredentials);\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689410360744,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,7 +4,8 @@\n     callBack(username, password);\n }\n \n function displayCredentials (username , password) {\n-    console.log(`Username: ${username}, Password: $ {password}`);\n+    console.log(`Username: ${username}`);\n+    console.log(`Password: ${password}`);\n }\n showCredentials(displayCredentials);\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689410461493,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,6 +6,7 @@\n \n function displayCredentials (username , password) {\n     console.log(`Username: ${username}`);\n     console.log(`Password: ${password}`);\n+    alert(showCredentials)\n }\n showCredentials(displayCredentials);\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689410510191,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,7 +6,7 @@\n \n function displayCredentials (username , password) {\n     console.log(`Username: ${username}`);\n     console.log(`Password: ${password}`);\n-    alert(showCredentials)\n+    alert(displayCredentials)\n }\n showCredentials(displayCredentials);\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689586350542,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,12 +1,2 @@\n-function showCredentials (callBack){\n-    const username = \"Tobi\" ;\n-    const password = \"Taiwo\" ;\n-    callBack(username, password);\n-}\n-\n-function displayCredentials (username , password) {\n-    console.log(`Username: ${username}`);\n-    console.log(`Password: ${password}`);\n-    alert(displayCredentials)\n-}\n-showCredentials(displayCredentials);\n\\ No newline at end of file\n+let username= prompt(\"Enter your username\")\n+console.log(username)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689587720795,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,12 @@\n let username= prompt(\"Enter your username\")\n-console.log(username)\n\\ No newline at end of file\n+console.log(validateUsername(username))\n+\n+\n+function validateUsername(username) {\n+    if (username.length > 10) {\n+        return false\n+    } else {\n+        return true\n+    }\n+    \n+} \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689588299567,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,12 @@\n console.log(validateUsername(username))\n \n \n function validateUsername(username) {\n+    if (username == null) {\n+        return false\n+    }\n+    \n     if (username.length > 10) {\n         return false\n     } else {\n         return true\n"
+                },
+                {
+                    "date": 1689589346676,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,9 @@\n-let username= prompt(\"Enter your username\")\n-console.log(validateUsername(username))\n+let username = prompt(\"Enter your username\")\n+(validateUsername(username))\n \n+let password = prompt(\"Enter your password\") \n+console.log(validatePassword(password))\n \n function validateUsername(username) {\n     if (username == null) {\n         return false\n@@ -12,5 +14,15 @@\n     } else {\n         return true\n     }\n     \n-} \n\\ No newline at end of file\n+} \n+function validatePassword(password){\n+    if (password == null) {\n+        return false\n+    }\n+    if (password.length < 6) {\n+        return false\n+    } else {\n+        return true\n+    }\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1689589438888,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n let username = prompt(\"Enter your username\")\n-(validateUsername(username))\n+validateUsername(username)\n \n let password = prompt(\"Enter your password\") \n console.log(validatePassword(password))\n \n"
+                },
+                {
+                    "date": 1689591315236,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,11 @@\n \n let password = prompt(\"Enter your password\") \n console.log(validatePassword(password))\n \n+\n+alert(\"You have come to end of this program! Goodbye\")\n+\n function validateUsername(username) {\n     if (username == null) {\n         return false\n     }\n"
+                },
+                {
+                    "date": 1689594292228,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,31 +1,33 @@\n-let username = prompt(\"Enter your username\")\n-validateUsername(username)\n+// Users database\n+const users = [\n+    {\n+        username: \"TestUser\",\n+        password: \"TestPassword\", // In real-world applications, never store passwords in plain text\n+        details: {\n+            firstName: \"John\",\n+            lastName: \"Doe\",\n+            email: \"johndoe@example.com\"\n+        }\n+    },\n+    // More users...\n+];\n \n-let password = prompt(\"Enter your password\") \n-console.log(validatePassword(password))\n+// Function to validate user and return details\n+function validateUser(username, password, callback) {\n+    const user = users.find(user => user.username === username && user.password === password);\n \n-\n-alert(\"You have come to end of this program! Goodbye\")\n-\n-function validateUsername(username) {\n-    if (username == null) {\n-        return false\n-    }\n-    \n-    if (username.length > 10) {\n\\ No newline at end of file\n-        return false\n+    if (user) {\n+        callback(null, user.details);\n     } else {\n-        return true\n+        callback(new Error(\"Invalid username or password\"), null);\n     }\n-    \n-} \n-function validatePassword(password){\n-    if (password == null) {\n-        return false\n-    }\n-    if (password.length < 6) {\n-        return false\n+}\n+\n+// Usage\n+validateUser(\"TestUser\", \"TestPassword\", (error, userDetails) => {\n+    if (error) {\n+        console.error(error.message);\n     } else {\n-        return true\n+        console.log(userDetails);\n     }\n-}\n+});\n"
+                },
+                {
+                    "date": 1689596575147,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,33 +1,26 @@\n-// Users database\n-const users = [\n-    {\n-        username: \"TestUser\",\n-        password: \"TestPassword\", // In real-world applications, never store passwords in plain text\n-        details: {\n-            firstName: \"John\",\n-            lastName: \"Doe\",\n-            email: \"johndoe@example.com\"\n-        }\n-    },\n-    // More users...\n-];\n+const form = document.getElementById('weatherForm');\n+const weatherDataDiv = document.getElementById('weatherData');\n+const API_KEY = '8914952b240f539e5b53255f3f20017b';  // Replace with your OpenWeatherMap API key\n \n-// Function to validate user and return details\n-function validateUser(username, password, callback) {\n-    const user = users.find(user => user.username === username && user.password === password);\n+form.addEventListener('submit', function(e) {\n+    e.preventDefault();\n+    const city = document.getElementById('city').value;\n+    getWeather(city);\n+});\n \n-    if (user) {\n-        callback(null, user.details);\n-    } else {\n-        callback(new Error(\"Invalid username or password\"), null);\n-    }\n+function getWeather(city) {\n+    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}`)\n+        .then(response => response.json())\n+        .then(data => displayWeatherData(data));\n }\n \n-// Usage\n-validateUser(\"TestUser\", \"TestPassword\", (error, userDetails) => {\n-    if (error) {\n-        console.error(error.message);\n+function displayWeatherData(data) {\n+    if (data.main) {\n+        const temp = data.main.temp - 273.15;  // Convert from Kelvin to Celsius\n+        weatherDataDiv.innerHTML = `<h2>${data.name}</h2>\n+                                    <p>${temp.toFixed(2)}°C</p>\n+                                    <p>${data.weather[0].description}</p>`;\n     } else {\n-        console.log(userDetails);\n+        weatherDataDiv.innerHTML = `<p>Could not fetch weather data for the entered city.</p>`;\n     }\n-});\n+}\n"
+                },
+                {
+                    "date": 1689598343225,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,4 +23,5 @@\n     } else {\n         weatherDataDiv.innerHTML = `<p>Could not fetch weather data for the entered city.</p>`;\n     }\n }\n+\n"
+                },
+                {
+                    "date": 1689606543004,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,5 +23,17 @@\n     } else {\n         weatherDataDiv.innerHTML = `<p>Could not fetch weather data for the entered city.</p>`;\n     }\n }\n+function createDatalistOptions(datalistId, options) {\n+    const datalist = document.getElementById(datalistId);\n+    options.forEach(option => {\n+        const optionElem = document.createElement('option');\n+        optionElem.value = option;\n+        datalist.appendChild(optionElem);\n+    });\n+}\n \n+// Usage\n+const cities = ['New York', 'Los Angeles', 'Chicago', 'Houston', 'Philadelphia'];\n+createDatalistOptions('cities', cities);\n+\n"
+                },
+                {
+                    "date": 1689608205314,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,21 @@\n+// Load city data from JSON file\n+fetch('worldcities.json')\n+    .then(response => response.json())\n+    .then(data => {\n+        createDatalistOptions('cities', data.map(city => city.city));\n+    });\n+\n+// Function to create datalist options\n+function createDatalistOptions(datalistId, options) {\n+    const datalist = document.getElementById(datalistId);\n+    options.forEach(option => {\n+        const optionElem = document.createElement('option');\n+        optionElem.value = option;\n+        datalist.appendChild(optionElem);\n+    });\n+}\n+\n const form = document.getElementById('weatherForm');\n const weatherDataDiv = document.getElementById('weatherData');\n const API_KEY = '8914952b240f539e5b53255f3f20017b';  // Replace with your OpenWeatherMap API key\n \n@@ -23,17 +40,4 @@\n     } else {\n         weatherDataDiv.innerHTML = `<p>Could not fetch weather data for the entered city.</p>`;\n     }\n }\n-function createDatalistOptions(datalistId, options) {\n-    const datalist = document.getElementById(datalistId);\n-    options.forEach(option => {\n-        const optionElem = document.createElement('option');\n-        optionElem.value = option;\n-        datalist.appendChild(optionElem);\n-    });\n-}\n-\n-// Usage\n-const cities = ['New York', 'Los Angeles', 'Chicago', 'Houston', 'Philadelphia'];\n-createDatalistOptions('cities', cities);\n-\n"
+                },
+                {
+                    "date": 1689609013192,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,8 @@\n // Load city data from JSON file\n-fetch('worldcities.json')\n+\n+fetch('http://localhost:8080/worldcities.json')\n+\n     .then(response => response.json())\n     .then(data => {\n         createDatalistOptions('cities', data.map(city => city.city));\n     });\n@@ -12,8 +14,9 @@\n         const optionElem = document.createElement('option');\n         optionElem.value = option;\n         datalist.appendChild(optionElem);\n     });\n+    \n }\n \n const form = document.getElementById('weatherForm');\n const weatherDataDiv = document.getElementById('weatherData');\n"
+                },
+                {
+                    "date": 1689610410243,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,41 @@\n+\n+$.getJSON('path_to_your_file/worldcities.json', function(data) {\n+    const cities = data.map(city => city.city);\n+    $(\"#city\").autocomplete({\n+        source: cities\n+    });\n+});\n+\n+$.extend($.ui.autocomplete.prototype, {\n+    _isEventTargetInWidget: function(event) {\n+        const menuElement = this.menu.element[0];\n+        return event.target === this.element[0] || event.target === menuElement || $.contains(menuElement, event.target);\n+    }\n+});\n+\n+// Extend jQuery UI autocomplete to select suggestion with Tab key\n+$.extend($.ui.autocomplete.prototype, {\n+    _isEventTargetInWidget: function(event) {\n+        const menuElement = this.menu.element[0];\n+        return event.target === this.element[0] || event.target === menuElement || $.contains(menuElement, event.target);\n+    }\n+});\n+\n // Load city data from JSON file\n+$.getJSON('path_to_your_file/worldcities.json', function(data) {\n+    const cities = data.map(city => city.city);\n+    $(\"#city\").autocomplete({\n+        source: cities\n+    });\n+});\n \n+// Your existing JavaScript code goes here\n+\n+\n+\n+// Load city data from JSON file\n+\n fetch('http://localhost:8080/worldcities.json')\n \n     .then(response => response.json())\n     .then(data => {\n"
+                },
+                {
+                    "date": 1689610542118,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,12 +1,5 @@\n \n-$.getJSON('path_to_your_file/worldcities.json', function(data) {\n-    const cities = data.map(city => city.city);\n-    $(\"#city\").autocomplete({\n-        source: cities\n-    });\n-});\n-\n $.extend($.ui.autocomplete.prototype, {\n     _isEventTargetInWidget: function(event) {\n         const menuElement = this.menu.element[0];\n         return event.target === this.element[0] || event.target === menuElement || $.contains(menuElement, event.target);\n@@ -28,12 +21,8 @@\n         source: cities\n     });\n });\n \n-// Your existing JavaScript code goes here\n-\n-\n-\n // Load city data from JSON file\n \n fetch('http://localhost:8080/worldcities.json')\n \n"
+                },
+                {
+                    "date": 1689611027603,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,18 +14,18 @@\n     }\n });\n \n // Load city data from JSON file\n-$.getJSON('path_to_your_file/worldcities.json', function(data) {\n+$.getJSON('cities.json', function(data) {\n     const cities = data.map(city => city.city);\n     $(\"#city\").autocomplete({\n         source: cities\n     });\n });\n \n // Load city data from JSON file\n \n-fetch('http://localhost:8080/worldcities.json')\n+fetch('cities.json')\n \n     .then(response => response.json())\n     .then(data => {\n         createDatalistOptions('cities', data.map(city => city.city));\n"
+                },
+                {
+                    "date": 1689676317846,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,18 +14,18 @@\n     }\n });\n \n // Load city data from JSON file\n-$.getJSON('cities.json', function(data) {\n+$.getJSON('cities_file.json', function(data) {\n     const cities = data.map(city => city.city);\n     $(\"#city\").autocomplete({\n         source: cities\n     });\n });\n \n // Load city data from JSON file\n \n-fetch('cities.json')\n+fetch('cities_file.json')\n \n     .then(response => response.json())\n     .then(data => {\n         createDatalistOptions('cities', data.map(city => city.city));\n"
+                },
+                {
+                    "date": 1689677902763,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,47 +1,35 @@\n-\n-$.extend($.ui.autocomplete.prototype, {\n-    _isEventTargetInWidget: function(event) {\n-        const menuElement = this.menu.element[0];\n-        return event.target === this.element[0] || event.target === menuElement || $.contains(menuElement, event.target);\n-    }\n-});\n-\n // Extend jQuery UI autocomplete to select suggestion with Tab key\n $.extend($.ui.autocomplete.prototype, {\n     _isEventTargetInWidget: function(event) {\n         const menuElement = this.menu.element[0];\n         return event.target === this.element[0] || event.target === menuElement || $.contains(menuElement, event.target);\n     }\n });\n \n-// Load city data from JSON file\n-$.getJSON('cities_file.json', function(data) {\n-    const cities = data.map(city => city.city);\n-    $(\"#city\").autocomplete({\n-        source: cities\n-    });\n-});\n+// Get the input element.\n+const input = document.querySelector('#city');\n \n-// Load city data from JSON file\n-\n-fetch('cities_file.json')\n-\n-    .then(response => response.json())\n-    .then(data => {\n-        createDatalistOptions('cities', data.map(city => city.city));\n-    });\n-\n-// Function to create datalist options\n-function createDatalistOptions(datalistId, options) {\n-    const datalist = document.getElementById(datalistId);\n-    options.forEach(option => {\n-        const optionElem = document.createElement('option');\n-        optionElem.value = option;\n-        datalist.appendChild(optionElem);\n-    });\n+// Add an event listener to the input element.\n+input.addEventListener('input', () => {\n+    const searchTerm = input.value;\n     \n-}\n+    // Send a GET request to the server with the current input value as the 'term' query parameter.\n+    fetch(`http://localhost:3000/search?term=${searchTerm}`)\n+        .then(response => response.json())\n+        .then(data => {\n+            // Clear the old autocomplete suggestions.\n+            $(\".ui-autocomplete\").empty();\n+            \n+            // Create a new autocomplete suggestion for each item in 'data'.\n+            data.forEach(city => {\n+                $(\".ui-autocomplete\").append(`<li class=\"ui-menu-item\">${city}</li>`);\n+            });\n+        })\n+        .catch(error => {\n+            console.error('Error:', error);\n+        });\n+});\n \n const form = document.getElementById('weatherForm');\n const weatherDataDiv = document.getElementById('weatherData');\n const API_KEY = '8914952b240f539e5b53255f3f20017b';  // Replace with your OpenWeatherMap API key\n"
+                },
+                {
+                    "date": 1689678436740,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,30 +5,22 @@\n         return event.target === this.element[0] || event.target === menuElement || $.contains(menuElement, event.target);\n     }\n });\n \n-// Get the input element.\n-const input = document.querySelector('#city');\n-\n-// Add an event listener to the input element.\n-input.addEventListener('input', () => {\n-    const searchTerm = input.value;\n-    \n-    // Send a GET request to the server with the current input value as the 'term' query parameter.\n-    fetch(`http://localhost:3000/search?term=${searchTerm}`)\n-        .then(response => response.json())\n-        .then(data => {\n-            // Clear the old autocomplete suggestions.\n-            $(\".ui-autocomplete\").empty();\n-            \n-            // Create a new autocomplete suggestion for each item in 'data'.\n-            data.forEach(city => {\n-                $(\".ui-autocomplete\").append(`<li class=\"ui-menu-item\">${city}</li>`);\n+// Set up autocomplete with a function as the source\n+$(\"#city\").autocomplete({\n+    source: function(request, response) {\n+        // Send a GET request to the server with the current input value as the 'term' query parameter.\n+        fetch(`http://127.0.0.1:3000/search?term=${request.term}`)\n+            .then(res => res.json())\n+            .then(data => {\n+                // Pass the data to the response callback\n+                response(data);\n+            })\n+            .catch(error => {\n+                console.error('Error:', error);\n             });\n-        })\n-        .catch(error => {\n-            console.error('Error:', error);\n-        });\n+    }\n });\n \n const form = document.getElementById('weatherForm');\n const weatherDataDiv = document.getElementById('weatherData');\n"
+                },
+                {
+                    "date": 1689678970371,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,21 +1,17 @@\n-// Extend jQuery UI autocomplete to select suggestion with Tab key\n-$.extend($.ui.autocomplete.prototype, {\n-    _isEventTargetInWidget: function(event) {\n-        const menuElement = this.menu.element[0];\n-        return event.target === this.element[0] || event.target === menuElement || $.contains(menuElement, event.target);\n-    }\n-});\n-\n // Set up autocomplete with a function as the source\n $(\"#city\").autocomplete({\n     source: function(request, response) {\n-        // Send a GET request to the server with the current input value as the 'term' query parameter.\n-        fetch(`http://127.0.0.1:3000/search?term=${request.term}`)\n+        const searchTerm = request.term;\n+        const API_KEY = 'YOUR_API_KEY';  // Replace with your OpenWeatherMap API key\n+\n+        // Send a GET request to the OpenWeatherMap API to search for cities based on the partial name\n+        fetch(`https://api.openweathermap.org/data/2.5/find?q=${searchTerm}&type=like&appid=${API_KEY}`)\n             .then(res => res.json())\n             .then(data => {\n-                // Pass the data to the response callback\n-                response(data);\n+                // Extract city names from the API response and pass them to the response callback\n+                const cityNames = data.list.map(city => city.name);\n+                response(cityNames);\n             })\n             .catch(error => {\n                 console.error('Error:', error);\n             });\n@@ -23,9 +19,9 @@\n });\n \n const form = document.getElementById('weatherForm');\n const weatherDataDiv = document.getElementById('weatherData');\n-const API_KEY = '8914952b240f539e5b53255f3f20017b';  // Replace with your OpenWeatherMap API key\n+const API_KEY = 'YOUR_API_KEY';  // Replace with your OpenWeatherMap API key\n \n form.addEventListener('submit', function(e) {\n     e.preventDefault();\n     const city = document.getElementById('city').value;\n"
+                }
+            ],
+            "date": 1689255441522,
+            "name": "Commit-0",
+            "content": "document.getElementById('signupButton').addEventListener('click', function() {\n    var form = document.getElementById('signupForm');\n    form.classList.toggle('hidden');\n});\ndocument.getElementById('toggleButton').addEventListener('click', function() {\n    var passwordInput = document.getElementById('password');\n    var typeAttribute = passwordInput.getAttribute('type');\n\n    if (typeAttribute === 'password') {\n        passwordInput.setAttribute('type', 'text');\n    } else {\n        passwordInput.setAttribute('type', 'password');\n    }\n});\nlet day = \"Tuesday\"\n\nif (day == \"Monday!\"){\n    alert(\"Today is Monday!\") \n}\nelse if (day == \"Tuesday!\"){\n    alert(\"Today is Tuesday!\")\n}\nelse if (day == \"Wednesday!\") {\n    alert (\"Today is Wednesday!\")\n}\nelse {\n        alert(\"Today is neither Monday,Tuesday or Wednesday!\")\n}"
+        }
+    ]
+}

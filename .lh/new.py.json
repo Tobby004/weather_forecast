@@ -1,0 +1,18 @@
+{
+    "sourceFile": "new.py",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1689622125239,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1689622125239,
+            "name": "Commit-0",
+            "content": "import json\nimport csv\n\n# Load the data from the CSV file\nwith open('cities.csv', 'r') as file:\n    reader = csv.DictReader(file)\n    data = list(reader)\n\n# Keep only the city, country, and admin_name (state) from each city\nreduced_data = [{\"city\": city[\"city\"], \"country\": city[\"country\"], \"state\": city.get(\"admin_name\", \"\")} for city in data]\n\n# Write the reduced data back to a new JSON file\nwith open('cities.json_reduced.json', 'w') as file:\n    json.dump(reduced_data, file)\n"
+        }
+    ]
+}

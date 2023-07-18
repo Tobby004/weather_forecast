@@ -1,0 +1,10 @@
+function showCredentials (callBack){
+    const username = "Tobi" ;
+    const password = "Taiwo" ;
+    callBack(username, password);
+}
+
+function displayCredentials (username , password) {
+    console.log(`Username: ${username}, Password: $ {password}`);
+}
+showCredentials(displayCredentials);
