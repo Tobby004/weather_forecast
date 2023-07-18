@@ -2,7 +2,7 @@
 $("#city").autocomplete({
     source: function(request, response) {
         const searchTerm = request.term;
-        const API_KEY = '8914952b240f539e5b53255f3f20017b';  // Replace with your OpenWeatherMap API key
+        const API_KEY = process.env.OPENWEATHERMAP_API_KEY;  // Retrieve API key from environment variable
 
         // Send a GET request to the OpenWeatherMap API to search for cities based on the partial name
         fetch(`https://api.openweathermap.org/data/2.5/find?q=${searchTerm}&type=like&appid=${API_KEY}`)
@@ -20,7 +20,7 @@ $("#city").autocomplete({
 
 const form = document.getElementById('weatherForm');
 const weatherDataDiv = document.getElementById('weatherData');
-const API_KEY = '8914952b240f539e5b53255f3f20017b';  // Replace with your OpenWeatherMap API key
+const API_KEY = process.env.OPENWEATHERMAP_API_KEY;  // Retrieve API key from environment variable
 
 form.addEventListener('submit', function(e) {
     e.preventDefault();
